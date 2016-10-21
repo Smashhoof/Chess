@@ -1,0 +1,191 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="chess.css" />
+		<title>Chess</title>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td id="a8" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="rook black" id="brooka" src="images/brook.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td class="dark" id="b8" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="knight black" id="bknightb" src="images/bknight.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td id="c8" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="bishop black" id="bbishopc" src="images/bbishop.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td class="dark" id="d8" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="queen black" id="bqueen" src="images/bqueen.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td id="e8" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="king black" id="bking" src="images/bking.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td class="dark" id="f8" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="bishop black" id="bbishopf" src="images/bbishop.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td id="g8" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="knight black" id="bknightg" src="images/bknight.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td class="dark" id="h8" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="rook black" id="brookh" src="images/brook.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+			</tr>
+			<tr>
+				<td class="dark" id="a7" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="pawn black" id="bpawna" src="images/bpawn.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td id="b7" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="pawn black" id="bpawnb" src="images/bpawn.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td class="dark" id="c7" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="pawn black" id="bpawnc" src="images/bpawn.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td id="d7" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="pawn black" id="bpawnd" src="images/bpawn.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td class="dark" id="e7" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="pawn black" id="bpawne" src="images/bpawn.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td id="f7" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="pawn black" id="bpawnf" src="images/bpawn.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td class="dark" id="g7" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="pawn black" id="bpawng" src="images/bpawn.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td id="h7" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="pawn black" id="bpawnh" src="images/bpawn.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+			</tr>
+			<tr>
+				<td id="a6" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td class="dark" id="b6" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td id="c6" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td class="dark" id="d6" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td id="e6" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td class="dark" id="f6" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td id="g6" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td class="dark" id="h6" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+			</tr>
+			<tr>
+				<td class="dark" id="a5" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td id="b5" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td class="dark" id="c5" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td id="d5" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td class="dark" id="e5" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td id="f5" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td class="dark" id="g5" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td id="h5" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+			</tr>
+			<tr>
+				<td id="a4" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td class="dark" id="b4" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td id="c4" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td class="dark" id="d4" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td id="e4" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td class="dark" id="f4" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td id="g4" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td class="dark" id="h4" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+			</tr>
+			<tr>
+				<td class="dark" id="a3" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td id="b3" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td class="dark" id="c3" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td id="d3" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td class="dark" id="e3" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td id="f3" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td class="dark" id="g3" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+				<td id="h3" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+				</td>
+			</tr>
+			<tr>
+				<td id="a2" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="pawn white" id="wpawna" src="images/wpawn.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td class="dark" id="b2" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="pawn white" id="wpawnb" src="images/wpawn.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td id="c2" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="pawn white" id="wpawnc" src="images/wpawn.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td class="dark" id="d2" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="pawn white" id="wpawnd" src="images/wpawn.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td id="e2" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="pawn white" id="wpawne" src="images/wpawn.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td class="dark" id="f2" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="pawn white" id="wpawnf" src="images/wpawn.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td id="g2" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="pawn white" id="wpawng" src="images/wpawn.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td class="dark" id="h2" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="pawn white" id="wpawnh" src="images/wpawn.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+			</tr>
+			<tr>
+				<td class="dark" id="a1" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="rook white" id="wrooka" src="images/wrook.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td id="b1" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="knight white" id="wknightb" src="images/wknight.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td class="dark" id="c1" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="bishop white" id="wbishopc" src="images/wbishop.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td id="d1" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="queen white" id="wqueen" src="images/wqueen.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td class="dark" id="e1" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="king white" id="wking" src="images/wking.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td id="f1" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="bishop white" id="wbishopf" src="images/wbishop.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td class="dark" id="g1" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="knight white" id="wknightg" src="images/wknight.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+				<td id="h1" ondrop="dropHandler(event, this)" ondragover="dragoverHandler(event)">
+					<img class="rook white" id="wrookh" src="images/wrook.png" draggable="true" ondragstart="dragStartHandler(event)" />
+				</td>
+			</tr>
+		</table>
+		<div class="captures" id="wcaptures"></div>
+		<div class="captures" id="bcaptures"></div>
+		<div class="text" id="textright">Captures</div>
+		<div class="text" id="textleft">Captures</div>
+		<script type="text/javascript" src="chess.js"></script>
+	</body>
+</html>
